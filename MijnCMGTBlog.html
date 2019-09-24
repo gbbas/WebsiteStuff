@@ -56,11 +56,11 @@ session_start();
       <div class="Posts" style="width:85%; margin:0 auto;">
         <div id="Sprints" class="BlogPostActive" >
           <?php
-           $BlogPosts = scandir("/var/www/html/BlogPosts/Sprints");
-           $nmr_Posts = count($BlogPosts);
+           $BlogPosts2 = scandir("/var/www/html/BlogPosts/Sprints");
+           $nmr_Posts = count($BlogPosts2);
            for ($i = 0; $i <= $nmr_Posts; $i++) {
-             if ($BlogPosts[$i] !== '.' && $BlogPosts[$i] !== '..') {
-               echo '<script src="BlogPosts/Sprints/' .$BlogPosts[$i]. '"></script>';
+             if ($BlogPosts2[$i] !== '.' && $BlogPosts2[$i] !== '..') {
+               echo '<script src="BlogPosts/Sprints/' .$BlogPosts2[$i]. '"></script>';
              }
            }
            ?>
