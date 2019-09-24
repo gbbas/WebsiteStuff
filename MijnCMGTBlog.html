@@ -58,7 +58,7 @@ session_start();
           <?php
            $BlogPosts = scandir("/var/www/html/BlogPosts/Sprints");
            $nmr_Posts = count($BlogPosts);
-           for ($i = 0; $i <$nmr_Posts; $i++) {
+           for ($i = 0; $i <= $nmr_Posts; $i++) {
              if ($BlogPosts[$i] !== '.' && $BlogPosts[$i] !== '..') {
                echo '<script src="BlogPosts/Sprints/' .$BlogPosts[$i]. '"></script>';
              }
