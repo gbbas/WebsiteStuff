@@ -56,6 +56,7 @@ session_start();
       <div class="Posts" style="width:85%; margin:0 auto;">
         <div id="Sprints" class="BlogPostActive" >
           <?php
+           $BlogPosts2 = "";
            $BlogPosts2 = scandir("/var/www/html/BlogPosts/Sprints");
            $nmr_Posts = count($BlogPosts2);
            for ($i = 0; $i <= $nmr_Posts; $i++) {
