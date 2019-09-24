@@ -1,0 +1,41 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="SideNavContr.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="SideNav.css">
+    <link rel="stylesheet" type="text/css" href="basicStyle.css">
+    <title>
+      Testing
+    </title>
+    <div id="mySidenav" class="sidenav">
+      <?php
+      if ($_SESSION['Auth'] !== NULL)
+      {
+        echo ' <a href="Website.html">Home</a> ';
+        if ($_SESSION['Auth'] <= 1)
+        {
+          echo ' <a href="FileServerPage.html">File Server</a> ';
+        }
+        echo ' <a href="MijnCMGTBlog.html">CMGTBlog</a> ';
+        echo ' <a href="Login/logout.php">Logout</a> ';
+      }
+      else {
+        echo ' <a href="Login/login.php"> Login </a> ';
+        echo ' <a href="Login/register.php"> register </a> ';
+      }
+  ?>
+    </div>
+  </head>
+  <body>
+    <div id="main">
+      <a href="javascript:void(0)" class="closebtn" onclick="ChangeNav()">&times;</a>
+      <h1 id="PageTitle"> D&D </h1>
+
+    </div>
+  </body>
+</html>

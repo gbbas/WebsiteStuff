@@ -1,0 +1,34 @@
+.BlogPostInactive {
+  display: none;
+}
+
+.BlogPostActive {
+  display: block;
+}
+
+.responsive {
+  width: 60%;
+  height: auto;
+}
+
+.ABlogPost {
+  text-align: center;
+}
+
+#Sprints {
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  background-color: white;
+  width: 75%;
+}
+
+body, html {
+  height: 100%;
+  background-image: url("uploads/BlogAssets/background.png");
+  width: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
