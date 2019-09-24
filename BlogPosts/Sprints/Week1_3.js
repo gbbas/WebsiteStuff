@@ -10,6 +10,6 @@ document.write(`
       <p>Uiteindelijk zijn we op een paar plekken geweest met vragen maar leverde het allemaal weinig op.</p>
       <p>Terug op school kwam een peercoach van een andere groep met het idee gestructueerd te brainstormen. Dit is daarna, bij de prompt van de docenten om te gaan brainstormen, verder uitgewerkt.</p>
       <p>Hieruit is het volgende diagram gekomen die jasper heeft uitgewerkt terwijl donovan en ik de speedcourse stadslab volgden.</p>
-      <img src="uploads/BlogAssets/foto2-1.jpg" alt="diagram"></img>
+      <img src="uploads/BlogAssets/foto2-1.jpg" alt="diagram" class="responsive"></img>
       </div>
 `);
