@@ -1,5 +1,5 @@
 document.write(`
-    <div id="Week1_2.js" class="ABlogPost">
+    <div id="Week1_2.js" class="ABlogPost CLE1 Sprint1">
 
     <h1>Week 1.2</h1>
     <br>
